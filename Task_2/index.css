@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#section {
+    background-color: #323445;
+    width: 100%; 
+    height: 90vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4%;
+}
+
+/* ____________________________________Box one________________________________ */
+.box_one {
+    width: 60%;
+    height: 90vh;
+
+}
+
+#box_one_img {
+    background-image: url('./Images/person-3.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.box_data {
+    margin-top: 8%;
+    margin-left: 20%;
+}
+
+.box_data .icon .icon_circle {
+    color: #fec158;
+}
+
+.social_box {
+    margin-top: 16%;
+}
+
+.box_data h1 {
+    font-size: 5rem;
+    margin-top: 6%;
+    color: white;
+}
+
+.box_data hr {
+    width: 10%;
+    border: 1px solid #f9c16b;
+    margin-top: 1%;
+}
+
+.box_data .social_icons {
+    display: inline;
+}
+
+.social_icons .instagram {
+    margin-left: 20px;
+}
+
+.social_icons .linkedin {
+    margin-left: 20px;
+}
+
+/* ____________________________________Box two________________________________ */
+
+.box_two {
+    width: 25%;
+    height: 90vh;
+}
+
+.top_nav {
+    margin-top: 18%;
+}
+
+.top_nav ul {
+    display: flex;
+}
+
+.top_nav ul li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul .service_btn {
+    color: white;
+}
+
+ul .nav_btn {
+    margin-left: 50px;
+    color: #585a65;
+}
+
+.box_two_data {
+    margin-top: 20%;
+}
+
+.box_two_data p {
+    color: #797b88;
+}
+
+.box_two_data h1 {
+    color: white;
+}
+
+.box_two_data .first_para {
+    margin-bottom: 10px;
+}
+
+.box_two_data .second_para {
+    margin-top: 10px;
+}
+
+.box_two_data .box_story {
+    display: flex;
+    margin-top: 40px;
+}
+
+.box_story .arrow_icon {
+    margin-left: 30px;
+    color: #f9c16b;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.box_story h3 {
+    color: #f9c16b;
+
+}
+
+.box_two_data hr {
+    width: 25%;
+    border: 1px solid #f9c16b;
+    margin-top: 1%;
+}
+
+/* _____________________________________Second Section_____________________________ */
+
+#second_setion {
+    background-color: #242533;
+    width: 100%;
+    height: 90vh;
+}
+
+#box_2 {
+    margin-left: 14%;
+}
+
+.first_box_data {
+    margin-left: 4%;
+}
+
+.box .first_box {
+    width: 30%;
+    height: 50vh;
+    /* background-color: #ec8cd4; */
+}
+
+.first_box .first_box_data .first_box_para {
+    margin-top: 20%;
+    margin-bottom: 4%;
+    color: #797b88;
+}
+
+.first_box_data h1 {
+    color: white;
+}
+
+.first_box .first_box_data p {
+    margin-top: 4%;
+    color: #797b88;
+}
+
+.first_box_story {
+    display: flex;
+    margin-top: 40px;
+}
+
+.first_box_story .arrow_icon {
+    margin-left: 30px;
+    color: #f9c16b;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.first_box_story h3 {
+    color: #f9c16b;
+
+}
+
+.first_box_data hr {
+    width: 35%;
+    border: 1px solid #f9c16b;
+    margin-top: 1%;
+}
+
+.second_box {
+    width: 55%;
+    height: 50vh;
+    /* background-color: rgb(14, 79, 136); */
+}
+
+.second_box_data {
+    margin-top: 10%;
+    margin-left: 15%;
+
+}
+
+.second_box_data h1 {
+    color: white;
+}
+
+.second_box_data p {
+    color: #797b88;
+    margin-top: 2%;
+}
+
+.second_inner_boxes {
+    display: flex;
+    margin-top: 4%;
+    color: #797b88;
+}
+
+.second_inner_boxes h1 {
+    color: #f9c16b;
+}
+
+.numbers {
+    display: flex;
+    margin-right: 20px;
+}
+
+.numbers p {
+    margin-left: 10px;
+}
+
+/* ___________________________Boxes______________________ */
+.second_section_boxes {
+    margin-left: 13%;
+    width: 70%;
+    height: 40vh;
+    display: flex;
+}
+
+.second_section_boxes .inner_boxes_data {
+    background-color: #414455;
+    width: 32.3%;
+    height: 40vh;
+    margin: 10px;
+    margin-left: 2.7%;
+    color: white;
+    margin-top: 15%;
+}
+
+.fisrt_box {
+    background-color: #feae28 !important;
+}
+
+.inner_data {
+    display: flex;
+    margin-top: 50%;
+}
+
+.inner_data .diamond_icon {
+    margin-top: 4%;
+    margin-left: 28%;
+}
+
+.inner_data h3 {
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.inner_boxes_data p {
+    margin-left: 40%;
+    margin-top: 3%;
+    font-size: 0.7rem;
+}
+
+/* _______________________________________Third box ______________________________ */
+.third_section_box {
+    background-color: #323445;
+    width: 100%;
+    height: 90vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin: 0 17% 0 14.7%;
+}
+
+
+
+.items {
+    margin-top: 100%;
+}
+
+.item img {
+    width: 90%;
+    color: white;
+
+}
+
+/* ______________________________________________Fouth section________________________________ */
+.fourth_section_box {
+    background-color: #323445;
+    width: 100%;
+    height: 120vh;
+}
+
+.fourth_box {
+    width: 70%;
+    height: 120vh;
+    /* background-color: aliceblue; */
+    margin: auto;
+    display: flex;
+}
+
+.four_first_box {
+    width: 50%;
+    height: 120vh;
+    /* background-color: #f9c16b; */
+}
+
+#fourth_img_box {
+    margin-top: 20%;
+}
+
+.fourth_img_box {
+    width: 57.3%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-top: 5%;
+
+}
+
+.img_box {
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 40vh;
+    margin-bottom: 1%;
+}
+
+.img_box img {
+    margin-top: 27%;
+}
+
+.four_second_box {
+    width: 50%;
+    height: 120vh;
+    /* background-color: aquamarine; */
+}
+
+#fourth_fake_box {
+    margin-top: 10%;
+}
+
+/* __________________________________________________Fifth Section______________________________________ */
+.fifth_section_box {
+    background-color: #242533;
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.fifth_boxes {
+    /* background-color: #f9c16b; */
+    height: 93vh;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.fifth_img_box {
+    background-color: rgb(182, 187, 190);
+    width: 80%;
+    height: 50vh;
+    background-image: url('./Images/person-4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box_inner_data {
+    display: flex;
+    margin-left: 10%;
+    margin-bottom: 7%;
+}
+
+.hr_line {
+    display: flex;
+    margin-top: 6%;
+}
+
+.hr_line hr {
+    width: 10%;
+    border: 4px solid #797b88;
+}
+
+.hr_margin {
+    margin-left: 8%;
+}
+
+/* ________________________________________Sexth Section __________________________________ */
+.sixth_section_box {
+    background-color: #323545;
+}
+
+.inner_boxes_containers_data {
+    width: 73%;
+    /* background-color: #f9c16b; */
+    margin: 0 0 0 14%;
+    display: flex;
+}
+
+.inner_boxes_container {
+    width: 100%;
+    height: 60vh;
+    /* background-color: aqua; */
+}
+
+.boxese h3,
+hr {
+    margin-top: 6%;
+}
+
+.bottom_box {
+    width: 75%;
+    height: 30vh;
+    /* background-color: blueviolet; */
+    margin-left: 13%;
+}
+
+.bottom_box_data {
+    margin-left: 35%;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_icons {
+    display: flex;
+    margin-left: 11%;
+}
+
+.footer_icons svg {
+    margin-left: 3%;
+    margin-top: 8%;
+}
